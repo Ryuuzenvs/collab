@@ -1,0 +1,29 @@
+# 1. Abaikan SEMUA folder dan file di dalam /var/www/html/
+/*
+
+# 2. Kecualikan (JANGAN ABAIKAN) folder sistem utama kita
+!/layouts/
+!/components/
+
+# 3. Kecualikan file-file script utama
+!index.php
+!api.php
+!executor.php
+!config.php
+!run.sh
+!hash.php
+!.htacsess
+# 4. Abaikan file konfigurasi asli yang berisi password
+
+
+# 5. Abaikan folder virtual environment Python dan cache
+venv/
+__pycache__/
+*.pyc
+.env
+
+# 6. Abaikan folder data yang isinya file-file hasil download/upload (berat)
+/pin-downloader/downloads/
+/upscale_foto/output/
+*.db
+*.log
